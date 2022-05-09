@@ -1,10 +1,10 @@
 # RealTimeBusTracking
 
-The Real Time Bus Tracking shows the bus stops on the map of Boston with markers showing where both MIT and Harvard University are.
+The Real Time Bus Tracking shows the bus stop animation of the ride from MIT to Harvard with markers showing where both MIT and Harvard University are.
 
 ## How To Run
 
-Download index.html, styles.css and mapanimation.js files to the same directory on your computer. Load the index.html file into your browser. Move the map around to see the surrounding bus stops in the area, including those between MIT and Harvard -Tested on Chrome Version 101.0.4951.41
+Download index.html, styles.css and mapanimation.js files to the same directory on your computer. Load the index.html file into your browser. Press the 'Bus Map between MIT and Harvard' button to see the marker for MIT move along the bus route to Harvard -Tested on Chrome Version 101.0.4951.41
 
 ## Roadmap
 

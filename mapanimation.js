@@ -10,7 +10,7 @@ let map = new mapboxgl.Map({
 
 const marker = new mapboxgl.Marker().setLngLat([-71.0906, 42.3616]).addTo(map);
 const marker2 = new mapboxgl.Marker()
-  .setLngLat([-71.121824, 42.371312])
+  .setLngLat([-71.118625, 42.374863])
   .addTo(map);
 
 const busStops = [
