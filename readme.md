@@ -4,7 +4,7 @@ The Real Time Bus Tracking shows the bus stop animation of the ride from SBU to 
 
 ## How To Run
 
-Download index.html, styles.css and mapanimation.js files to the same directory on your computer. Load the index.html file into your browser. Press the 'Bus Map From SBU to MIT' button to see the marker for MIT move along the bus route to Harvard -Tested on Chrome Version 101.0.4951.41
+Download index.html, styles.css and mapanimation.js files to the same directory on your computer. Load the index.html file into your browser. Press the 'Bus Map From SBU to MIT' button to see the marker for SBU move along the bus route to MIT -Tested on Chrome Version 101.0.4951.41
 
 ## Roadmap
 
