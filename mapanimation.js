@@ -4,22 +4,23 @@ mapboxgl.accessToken =
 let map = new mapboxgl.Map({
   container: "map",
   style: "mapbox://styles/mapbox/streets-v11",
-  center: [-71.1024, 42.366105],
-  zoom: 13.5,
+  center: [-71.99541, 41.767093],
+  zoom: 7.5,
 });
 
-const marker = new mapboxgl.Marker().setLngLat([-71.0906, 42.3616]).addTo(map);
-const marker2 = new mapboxgl.Marker()
-  .setLngLat([-71.118625, 42.374863])
+const marker = new mapboxgl.Marker()
+  .setLngLat([-73.124689, 40.914139])
   .addTo(map);
+const marker2 = new mapboxgl.Marker().setLngLat([-71.0906, 42.3616]).addTo(map);
 
 const busStops = [
-  [-71.093729, 42.359244],
-  [-71.094915, 42.360175],
-  [-71.0958, 42.360698],
-  [-71.099558, 42.362953],
-  [-71.103476, 42.365248],
-  [-71.106067, 42.366806],
+  [-73.056659, 40.820138],
+  [-73.280783, 40.80476],
+  [-73.744401, 40.75362],
+  [-73.809437, 40.818903],
+  [-73.786656, 40.908963],
+  [-73.746379, 40.950756],
+  [-73.699423, 40.976542],
   [-71.108717, 42.368355],
   [-71.110799, 42.369192],
   [-71.113095, 42.370218],
