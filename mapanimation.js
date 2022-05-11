@@ -14,21 +14,41 @@ const marker = new mapboxgl.Marker()
 const marker2 = new mapboxgl.Marker().setLngLat([-71.0906, 42.3616]).addTo(map);
 
 const busStops = [
+  //SBU
   [-73.056659, 40.820138],
+  //LIE
   [-73.280783, 40.80476],
+  //LIE commack
   [-73.744401, 40.75362],
+  //crossisland
   [-73.809437, 40.818903],
-  [-73.786656, 40.908963],
+  //throgsneck
   [-73.746379, 40.950756],
-  [-73.699423, 40.976542],
-  [-71.108717, 42.368355],
-  [-71.110799, 42.369192],
-  [-71.113095, 42.370218],
-  [-71.115476, 42.372085],
-  [-71.117585, 42.373016],
-  [-71.118625, 42.374863],
+  //mamaroneck
+  [-73.531842, 41.051305],
+  //bridgeport
+  [-73.200498, 41.167846],
+  //new haven
+  [-72.916569, 41.296975],
+  //waterway
+  [-72.352267, 41.318187],
+  //stateline of RI
+  [-71.796667, 41.442167],
+  //providence
+  [-71.402848, 41.814628],
+  //get on 93
+  [-71.134038, 42.204353],
+  //braintree
+  [-71.023149, 42.233964],
+  //boston financial district
+  [-71.052256, 42.319501],
+  // community college
+  [-71.069666, 42.373175],
+  //MIT
+  [-71.0906, 42.3616],
 ];
 
+//loop through the nested arrays
 let counter = 0;
 function move() {
   setTimeout(() => {
