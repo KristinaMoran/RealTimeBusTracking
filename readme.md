@@ -1,14 +1,17 @@
 # RealTimeBusTracking
 
-The Real Time Bus Tracking shows the bus stop animation of the ride from MIT to Harvard with markers showing where both MIT and Harvard University are.
+The Real Time Bus Tracking shows the bus stop animation of the ride from SBU to MIT with markers showing where both MIT and Stony Brook University are located.
 
 ## How To Run
 
-Download index.html, styles.css and mapanimation.js files to the same directory on your computer. Load the index.html file into your browser. Press the 'Bus Map between MIT and Harvard' button to see the marker for MIT move along the bus route to Harvard -Tested on Chrome Version 101.0.4951.41
+Download index.html, styles.css and mapanimation.js files to the same directory on your computer. Load the index.html file into your browser. Press the 'Bus Map From SBU to MIT' button to see the marker for MIT move along the bus route to Harvard -Tested on Chrome Version 101.0.4951.41
 
 ## Roadmap
 
-Add function on how to walk and drive between places.
+Add function to add lines as a stop is made.
+
+Add function on how to drive back
+
 Add other map layers for example street view and outdoors.
 
 ## MIT License
